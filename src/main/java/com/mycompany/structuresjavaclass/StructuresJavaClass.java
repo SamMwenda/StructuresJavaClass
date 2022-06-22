@@ -4,7 +4,7 @@
  */
 
 package com.mycompany.structuresjavaclass;
-
+import java.util.Scanner;
 /**
  *
  * @author thatguykullie
@@ -12,19 +12,20 @@ package com.mycompany.structuresjavaclass;
 public class StructuresJavaClass {
 
     public static void main(String[] args) {
-        //IFStatements i = new IFStatements();
-        //i.ifStatements();
-        
-        //SwitchCase s = new SwitchCase();
-        //s.switchCase();
-        
-        //ForLoopStatements f = new ForLoopStatements();
-        //f.forLoopStatements();
-        
-        DoWhileStatements dW = new DoWhileStatements();
-        dW.doWhileStatements();
-        
-        //WhileStatements w = new WhileStatements();
-        //w.whileStatements();
+       //String alphabet;       
+       //Scanner console = new Scanner(System.in);
+       //System.out.println("Enter alphabet but not Q");
+       //alphabet = console.nextLine();
+       //while (!"Q".equals(alphabet) && !"q".equals(alphabet) )
+       //{
+          
+               //System.out.println(alphabet + " is accepted");
+               //System.out.println("Enter alphabet but not Q");
+               //alphabet = console.nextLine();
+         
+       //}
+       //System.out.println("Q & q is not accepted. Program terminated"); NestedForLoop
+        NestedForLoop loop = new NestedForLoop();
+        loop.nestedForLoop();
     }
 }
